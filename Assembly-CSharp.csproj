@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{F74DE272-3B70-6879-6A9C-9AC431EE2284}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;UNITY_64;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Unity3D/Version 5/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Unity3D/Version 5/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Enemigos\10_Cactus\Espina.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\11_Vava\Vava.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\12_Vermis\Vermis.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\14_Bee_Blader\Bee_Blader.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\16_Droper\Droper.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\18_Bunny\Bunny.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\19_Bishoot\Bishoot.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\19_Bishoot\Bishoot_bala.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\1_Tundra\Tundra.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\20_Gentler\Gentler.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\20_Gentler\Gentler_bomb.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\21_De_voux\De_Voux.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\22_Spiky\Spiky.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\23_Omocha\Omocha.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\23_Omocha\Omocha_bala.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\25_Reploid_Soldier\Reploid_Soldier.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\26_Aclanda\Aclanda.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\26_Aclanda\disp_aclanda.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\27_Tornillo\Tornillo.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\28_Volador\Volador.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\28_Volador\disparo.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\2_Tentoroid\Tentoroid.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\30_Aveja\Aveja.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\31_Barredora\Barredora.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\32_Giro\Giro.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\33_Metaur\Metaur.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\35_Espectro\Espectro.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\37_Salero\Salero.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\38_Aplastador\Aplastador.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\39_Quetzal\Quetzal.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\3_Basicsfera\Basicsfera.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\40_Totem\Totem.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\40_Totem\Totem_Cara.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\40_Totem\Totem_disp.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\41_Avion\Avion.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\41_Avion\Aviones_trio.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\42_Basura\Basura.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\42_Basura\Basura_Entrada.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\44_Wolf\Wolf.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\45_Rhino\Rhino.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\46_Avispa\Avispa_Banda.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\47_Rueda\Rueda.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\48_Virus\Virus.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\49_Cactus\Cactus.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\4_Giroball\Giroball.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\50_Bombot\Bombot.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\51_Helicoptero\Helicoptero.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\52_Saltador\Saltador.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\53_Toxicbot\Toxicbot.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\54_Cangrejo\Cangrejo.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\55_Repliforce_Soldier\Soldier.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\55_Repliforce_Soldier\Soldier_2saltitosyunciclo.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\55_Repliforce_Soldier\Soldier_Bala.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\55_Repliforce_Soldier\Soldier_Camina.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\55_Repliforce_Soldier\Soldier_ciclo1.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\55_Repliforce_Soldier\soldier_granada.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\57_Batbone\Batbone.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\57_Batbone\Batbone_Banda.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\59_Triforce\Triforce.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\5_Helper\Helper.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\60_Labour\Labour.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\61_Flan\Flan.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\62_Mangual\Mangual.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\63_Bailarin\Bailarin.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\66_Capsule\Capsule.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\68_Luzbug\Luzbug.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\69_Bomba\Bomba.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\6_Mirador\Mirador.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\70_Mwasp\Mwasp.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\70_Mwasp\Wasp_crea.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\71_Rosa\Rosa.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\71_Rosa\Spider.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\72_Caballero\Caballero.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\74_Auto\Auto.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\75_Topo\Topo.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\75_Topo\Topo_obj.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\78_Shielma\Shielma.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\79_Acupernis 1\Acupernis.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\7_Bichbot\Bichbot.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\80_Serpiente\Serpiente.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\81_Pyro\Pyro.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\82_Minion\Minion.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\83_Riot\Riot.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\83_Riot\Riot_bala.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\84_Scissor\Scissor.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\85_Electron\Electron.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\85_Electron\Electron_disp.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\86_Motor\Motor.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\87_Visor\Visor.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\88_Ojo\Ojo.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\89_Gunbolt\Gunbolt.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\8_Saltarin\Saltarin.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\91_Cyberb\Cyberb.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\92_Tenguball\Tenguball.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\93_Shuriken\Shuriken.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\94_Medusa\Medusa.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\95_Trap\Trap.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\Boss_Explocion.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\Exp_Muere.cs" />
+     <Compile Include="Assets\Scripts\Enemigos\Exp_chau.cs" />
+     <Compile Include="Assets\Scripts\Extras\Mobible.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel0\Camara_Nivel0.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel0\Dinamo.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel0\Dinamo_Boom.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel0\Luz_desva.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel0\Nivel0.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel1\Camara_Nivel1.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel1\Firemandra.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel1\Firemandra_disp.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel10\Camara_Nivel10.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel11\Beyond.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel11\Beyond_disp.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel11\Camara_Nivel11.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel11\Rangda_Nightmare.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel11\Rangda_disp.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel12\Camara_Nivel12.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel12\Sigma.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel12\Sigma_Bala.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel13\Camara_Nivel13.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel14\Camara_Nivel14.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel14\Dragon.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel14\dragon_disp.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel15\Camara_Nivel15.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel16\Camara_Nivel16.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel17\Camara_Nivel17.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel2\Camara_Nivel2.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel2\Kacto_Spine.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel2\Rosas.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel3\Aplasta.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel3\Basura_par.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel3\Camara_Nivel3.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel3\Cinta.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel3\Puas_Super.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel3\Slimer.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel3\Super_hedgehog.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel3\Tren.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel4\CaeHielo.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel4\Camara_Nivel4.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel4\ControlWallen.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel4\EyeB.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel4\HieloRoto.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel4\Pelicano_disp.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel4\Platafoma.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel4\RompeHielo.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel4\Stormy_Pelican.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel4\WallenHielo.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel5\Ascensor.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel5\Caer.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel5\Camara_Nivel5.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel5\Gotta.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel5\Kowai_Gargoyle.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel5\Phanton.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel5\Phanton_disp.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel5\Trampa_Nivel5.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel6\Bit_Augod.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel6\Camara_Nivel6.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel6\Libot.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel6\MobibleX6.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel6\disp_son.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel7\Axe.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel7\Camara_Nivel7.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel7\Cyber_Kleine.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel7\Hexagono.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel7\Hexagono_sin.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel7\Kleine_disp.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel7\Portal.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel7\Portalesp.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel8\Abisal_Tenebris.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel8\Camara_Nivel8.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel8\Cubierta.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel8\Granada_Abisal.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel8\Misil_Abisal.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel9\Bola_ciclope.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel9\Camara_Nivel9.cs" />
+     <Compile Include="Assets\Scripts\Extras\Nivel9\Ciclope.cs" />
+     <Compile Include="Assets\Scripts\Extras\NivelE\Camara_NivelE.cs" />
+     <Compile Include="Assets\Scripts\Extras\NivelE\Dinamo_NivelE.cs" />
+     <Compile Include="Assets\Scripts\Extras\NivelE\Dinamo_disp.cs" />
+     <Compile Include="Assets\Scripts\Extras\Puerta.cs" />
+     <Compile Include="Assets\Scripts\Menus\Escribe.cs" />
+     <Compile Include="Assets\Scripts\Menus\Pausa.cs" />
+     <Compile Include="Assets\Scripts\Menus\Principio.cs" />
+     <Compile Include="Assets\Scripts\Menus\Select.cs" />
+     <Compile Include="Assets\Scripts\Objetos\Capsula.cs" />
+     <Compile Include="Assets\Scripts\Objetos\Corazon.cs" />
+     <Compile Include="Assets\Scripts\Objetos\Cuerpo.cs" />
+     <Compile Include="Assets\Scripts\Objetos\Gema.cs" />
+     <Compile Include="Assets\Scripts\Objetos\Life.cs" />
+     <Compile Include="Assets\Scripts\Objetos\Port_Final.cs" />
+     <Compile Include="Assets\Scripts\Objetos\Tanque.cs" />
+     <Compile Include="Assets\Scripts\Objetos\Vida_Chica.cs" />
+     <Compile Include="Assets\Scripts\Objetos\Vida_Grande.cs" />
+     <Compile Include="Assets\Scripts\Objetos\Vida_Total.cs" />
+     <Compile Include="Assets\Scripts\Objetos\Weapon_Chica.cs" />
+     <Compile Include="Assets\Scripts\Objetos\Weapon_Grande.cs" />
+     <Compile Include="Assets\Scripts\Objetos\Weapon_Total.cs" />
+     <Compile Include="Assets\Scripts\Personajes\Axl.cs" />
+     <Compile Include="Assets\Scripts\Personajes\Black.cs" />
+     <Compile Include="Assets\Scripts\Personajes\Burbuja.cs" />
+     <Compile Include="Assets\Scripts\Personajes\Disparo.cs" />
+     <Compile Include="Assets\Scripts\Personajes\Disparo_especial.cs" />
+     <Compile Include="Assets\Scripts\Personajes\Falcon.cs" />
+     <Compile Include="Assets\Scripts\Personajes\Fourth.cs" />
+     <Compile Include="Assets\Scripts\Personajes\Megaman.cs" />
+     <Compile Include="Assets\Scripts\Personajes\Rebote.cs" />
+     <Compile Include="Assets\Scripts\Personajes\Shadow.cs" />
+     <Compile Include="Assets\Scripts\Personajes\Trans_copy.cs" />
+     <Compile Include="Assets\Scripts\Personajes\Ultimate.cs" />
+     <Compile Include="Assets\Scripts\Personajes\White.cs" />
+     <Compile Include="Assets\Scripts\Personajes\Zero.cs" />
+     <Compile Include="Assets\Scripts\Vidas.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Unity3D/Version 5/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Unity3D/Version 5/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

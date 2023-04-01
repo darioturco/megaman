@@ -1,0 +1,40 @@
+﻿<Properties StartupItem="Juego.CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Extras\Nivel12\Sigma.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Personajes\Megaman.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Personajes\Axl.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Personajes\Zero.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Vidas.cs" Line="824" Column="18" />
+      <File FileName="Assets\Scripts\Personajes\Disparo.cs" Line="129" Column="50" />
+      <File FileName="Assets\Scripts\Enemigos\6_Mirador\Mirador.cs" Line="29" Column="3" />
+      <File FileName="Assets\Scripts\Enemigos\28_Volador\Volador.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Enemigos\2_Tentoroid\Tentoroid.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Extras\Nivel0\Dinamo.cs" Line="43" Column="14" />
+      <File FileName="Assets\Scripts\Extras\Nivel12\Sigma.cs" Line="325" Column="52" />
+      <File FileName="Assets\Scripts\Objetos\Port_Final.cs" Line="32" Column="3" />
+      <File FileName="Assets\Scripts\Personajes\Disparo_especial.cs" Line="35" Column="6" />
+      <File FileName="Assets\Scripts\Extras\Nivel12\Sigma_Bala.cs" Line="141" Column="2" />
+      <File FileName="Assets\Scripts\Extras\Nivel11\Beyond_disp.cs" Line="3" Column="43" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="D:\megaman\Juego\Assets\Scripts\Personajes\Megaman.cs" line="1505" />
+      <Breakpoint file="D:\megaman\Juego\Assets\Scripts\Personajes\Megaman.cs" line="1490" />
+      <Breakpoint file="D:\megaman\Juego\Assets\Scripts\Personajes\Shadow.cs" line="450" />
+      <Breakpoint file="D:\megaman\Juego\Assets\Scripts\Personajes\Shadow.cs" line="822" />
+      <Breakpoint file="D:\megaman\Juego\Assets\Scripts\Personajes\Shadow.cs" line="824" />
+      <Breakpoint file="D:\megaman\Juego\Assets\Scripts\Personajes\Falcon.cs" line="336" />
+      <Breakpoint file="D:\megaman\Juego\Assets\Scripts\Vidas.cs" line="1440" />
+      <Breakpoint file="D:\megaman\Juego\Assets\Scripts\Personajes\Axl.cs" line="850" />
+      <Breakpoint file="D:\megaman\Juego\Assets\Scripts\Menus\Principio.cs" line="109" />
+      <Breakpoint file="D:\megaman\Juego\Assets\Scripts\Menus\Principio.cs" line="56" />
+      <Breakpoint file="D:\megaman\Juego\Assets\Scripts\Extras\Nivel11\Rangda_Nightmare.cs" line="514" />
+      <Breakpoint file="D:\megaman\Juego\Assets\Scripts\Extras\Nivel11\Rangda_Nightmare.cs" line="166" />
+      <Breakpoint file="D:\megaman\Juego\Assets\Scripts\Extras\Nivel14\Dragon.cs" line="91" />
+      <Breakpoint file="D:\megaman\Juego\Assets\Scripts\Extras\Nivel12\Sigma.cs" line="153" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
